@@ -1,9 +1,10 @@
-/** @type {import('tailwindcss').Config} */
+// filepath: /C:/Users/DELL/Desktop/React/FormikYup/tailwind.config.js
 export default {
-  content: [],
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+  ],
   theme: {
     extend: {},
   },
   plugins: [],
 }
-
