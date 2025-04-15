@@ -1,27 +1,28 @@
-import globals from "globals";
-import pluginJs from "@eslint/js";
-import pluginReact from "eslint-plugin-react";
-import prettier from "eslint-config-prettier";
+import globals from 'globals'
+import pluginJs from '@eslint/js'
+import pluginReact from 'eslint-plugin-react'
+import prettier from 'eslint-config-prettier'
 
 /** @type {import('eslint').Linter.FlatConfig[]} */
 export default [
   {
-    files: ["**/*.{js,mjs,cjs,jsx}"],
+    files: ['**/*.{js,mjs,cjs,jsx}'],
     languageOptions: {
-      globals: globals.browser
+      globals: globals.browser,
     },
     plugins: {
-      react: pluginReact
+      react: pluginReact,
     },
     rules: {
       ...pluginJs.configs.recommended.rules,
       ...pluginReact.configs.flat.recommended.rules,
-      ...prettier.rules
+      ...prettier.rules,
+      'no-unused-vars': 'warn',
     },
     settings: {
       react: {
-        version: "detect"
-      }
-    }
-  }
-];
+        version: 'detect',
+      },
+    },
+  },
+]
