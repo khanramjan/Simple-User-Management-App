@@ -1,6 +1,6 @@
 # Simple User Management App
 
-A lightweight and efficient **User Management Application** built using **JavaScript**, **HTML**, and **CSS**.
+A lightweight and efficient **User Management Application** built using **React**, **HTML**, **CSS**, **Tailwind**.
 
 ## Table of Contents
 - [Features](#features)
@@ -23,9 +23,9 @@ A lightweight and efficient **User Management Application** built using **JavaSc
 
 ## Technologies Used
 This project was developed using:
-- **JavaScript**: Core logic and functionality.
+- **React**: Core logic and functionality.
 - **HTML**: Markup structure of the application.
-- **CSS**: Styling and layout.
+- **TailwindCSS**: Styling and layout.
 
 ---
 
